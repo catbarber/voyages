@@ -12,3 +12,13 @@
   color: #000;
   max-width: 480px;
 }
+
+.invisible {
+  color: transparent;
+  font-size: 1px;
+  cursor: default;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -99;
+}
